@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<style>
+
+div#main{
+width:100%;
+height:100vh;
+border:2px solid black;
+background-color:tan;
+display:grid;
+grid-template-rows:100px 50px auto<! 100px;
+grid-template-columns:1fr 1fr 1fr;
+gap:5px;
+}
+
+
+
+div.one{
+background-color:green;
+grid-row:2/3;
+grid-column:2/3;
+}
+
+
+div.two{
+background-color:YELLOW;
+grid-column:1/-1;
+}
+
+
+div.three{
+background-color:red;
+grid-row:2/2;
+}
+
+
+
+div.four{
+background-color:blue;
+grid-row:2/4;
+}
+
+
+
+div.five{
+background-color:pink;
+grid-column:1/3;
+}
+
+
+div.six{
+background-color:orange;
+grid-column:1/-1;
+}
+
+
+
+
+</style>
+<title>heart</title>
+</head>
+<div id="main">
+<div class="one">ONE</div>
+<div class="two">TWO</div>
+<div class="three">THREE</div>
+<div class="four">FOUR</div>
+<div class="five">FIVE</div>
+<div class="six">SIX</div>
+
+</div>
+<body>
+
+</body>
+</html>
+
